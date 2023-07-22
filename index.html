@@ -14,7 +14,6 @@
     <title>Resume</title>
   </head>
   <body>
-    <button onclick="generatePDF()">Зберегти у PDF</button>
     <!--Main-->
     <div class="main">
       <!---->
@@ -144,38 +143,19 @@
             <li class="soft_skills_item"><span class="soft_skills_text">Punctual</span></li>
           </ul>
         </div>
-         <!-- Languages -->
-         <div class="soft_skills">
+        <!-- Languages -->
+        <div class="soft_skills">
           <h3 class="sidebard_title">Languages</h3>
           <ul class="soft_skills_list">
             <li class="soft_skills_item"><span class="soft_skills_text">English</span></li>
             <li class="soft_skills_item"><span class="soft_skills_text">Polish</span></li>
             <li class="soft_skills_item"><span class="soft_skills_text">Ukrainian</span></li>
-           
+        
           </ul>
         </div>
       </aside>
       
     </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <script>
-      function generatePDF() {
-          // Отримати HTML-елемент, який потрібно перетворити на PDF
-          const element = document.querySelector('.resume');
-  
-          // Налаштування параметрів
-          const opt = {
-              margin: 10,
-              filename: 'resume.pdf',
-              image: { type: 'jpeg', quality: 0.98 },
-              html2canvas: { scale: 2 },
-              jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-          };
-  
-          // Створити PDF
-          html2pdf().from(element).set(opt).save();
-      }
-  </script>
   </body>
 </html>
