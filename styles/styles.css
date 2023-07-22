@@ -18,13 +18,7 @@ ul, ol{
     margin: 0 auto;
 }
 
-.main_content {
-    /* Стилі для основного контенту */
-    flex: 1;
-    background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 55px 90px;
-}
+
 
 .sidebard {
     /* Стилі для бічної панелі */
@@ -48,7 +42,7 @@ ul, ol{
     flex: 1;
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 55px 90px;
+    padding: 35px 90px;
 }
 
 /* about styles */
@@ -62,7 +56,7 @@ ul, ol{
     font-size: 45px;
     line-height: 55px;
     color: hsl(246, 67%, 29%);
-    margin-bottom: 25px;
+    margin: 0;
 }
 
 .about_description{
@@ -198,8 +192,8 @@ ul, ol{
 .education_position{
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 22px;
     color: #434455;
     margin-bottom: 10px;
     text-align: justify;
@@ -217,7 +211,7 @@ ul, ol{
 /* sidebard class */
 .sidebard{
     background-color: #1E2939;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-bottom: 40px;
     width: 400px;
     color: #FFFFFF;
@@ -225,7 +219,9 @@ ul, ol{
 
 .photo{
     width: 370px;
+    height:380px;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 .contacts, .tech_skills, .soft_skills{
