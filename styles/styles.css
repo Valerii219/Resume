@@ -1,7 +1,9 @@
 body {
     /* Стилі для body */
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #ffffff;
     margin: 0;
 }
 
@@ -69,6 +71,8 @@ ul{
     line-height: 24px;
     color: #595959;
     width: 400px;
+    margin: 15px;
+    text-align: justify;
 }
 
 /* projects styles */
@@ -86,8 +90,17 @@ ul{
 }
 
 .projects_list{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
     padding: 0;
     margin-left: 15px;
+    text-align: justify;
+    color: #cec2c2;
+}
+.nameA{
+    color: #FB6D3A;
 }
 
 .project_item{
@@ -188,6 +201,7 @@ ul{
     line-height: 20px;
     color: #FB6D3A;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 .education_pos{
@@ -244,7 +258,7 @@ ul{
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    color: #565e6a;
+    color: #FB6D3A;
     text-decoration: none;
 }
 
