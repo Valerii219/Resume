@@ -1,14 +1,15 @@
 body {
     /* Стилі для body */
-    font-family: 'Roboto', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #b9b9c4;
     background-color: #ffffff;
     margin: 0;
 }
 
-ul{
+ul, ol{
     margin: 0;
+    padding: 0;
 }
 .resume {
     display: flex;
@@ -60,7 +61,7 @@ ul{
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
-    color: hsl(107, 86%, 48%);
+    color: hsl(246, 67%, 29%);
     margin-bottom: 25px;
 }
 
@@ -71,7 +72,7 @@ ul{
     line-height: 24px;
     color: #595959;
     width: 400px;
-    margin: 15px;
+    
     text-align: justify;
 }
 
@@ -97,7 +98,7 @@ ul{
     padding: 0;
     margin-left: 15px;
     text-align: justify;
-    color: #cec2c2;
+    color: #b9b9c4;
 }
 .nameA{
     color: #FB6D3A;
@@ -116,7 +117,7 @@ ul{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #b9b9c4;
 }
 
 .project_link{
@@ -149,7 +150,7 @@ ul{
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    color: #A8A8A8;
+    color: #827a7a;
     margin-bottom: 10px;
 }
 
@@ -171,7 +172,7 @@ ul{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #b9b9c4;
 }
 
 .rob{
@@ -199,7 +200,7 @@ ul{
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: #434455;
     margin-bottom: 10px;
     text-align: justify;
 }
