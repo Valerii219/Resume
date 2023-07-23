@@ -139,11 +139,13 @@ ul, ol{
     color: #000000;
     margin-bottom: 10px;
 }
-
+.work{
+    margin-left: 20px;
+}
 .period{
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 15px;
     color: #827a7a;
     margin-bottom: 10px;
@@ -174,7 +176,7 @@ ul, ol{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
+    line-height: ;
     color: #000000;
     margin-bottom: 10px;
 }
