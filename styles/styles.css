@@ -1,5 +1,4 @@
 
-
 body {
     /* Стилі для body */
     font-family: 'Merriweather', serif;;
@@ -17,7 +16,7 @@ ul, ol{
 .resume {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -26,8 +25,8 @@ ul, ol{
 .sidebard {
     /* Стилі для бічної панелі */
     background-color: #1E2939;
-  
-    width: 100%;
+    padding: 40px;
+    width: 400px;
 }
 
 /* main styles */
@@ -35,7 +34,7 @@ ul, ol{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    width: 100%;
+    width: 1200px;
     margin: 0 auto;
     background-color: #F5F7FA;
 }
