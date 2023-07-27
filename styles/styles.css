@@ -1,3 +1,5 @@
+
+
 body {
     /* Стилі для body */
     font-family: 'Merriweather', serif;;
@@ -15,7 +17,7 @@ ul, ol{
 .resume {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -25,7 +27,7 @@ ul, ol{
     /* Стилі для бічної панелі */
     background-color: #1E2939;
     padding: 40px;
-    width: 400px;
+    width: 100%;
 }
 
 /* main styles */
@@ -33,7 +35,7 @@ ul, ol{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     background-color: #F5F7FA;
 }
@@ -144,8 +146,8 @@ ul, ol{
 }
 .period{
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 15px;
     color: #827a7a;
     margin-bottom: 10px;
@@ -176,7 +178,7 @@ ul, ol{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: ;
+    line-height: 20px;
     color: #000000;
     margin-bottom: 10px;
 }
