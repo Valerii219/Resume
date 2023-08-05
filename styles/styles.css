@@ -34,7 +34,7 @@ ul, ol{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
     background-color: #F5F7FA;
 }
@@ -217,7 +217,7 @@ ul, ol{
     background-color: #1E2939;
     padding-top: 35px;
     padding-bottom: 40px;
-    width: 400px;
+    width: 450px;
     color: #FFFFFF;
 }
 
