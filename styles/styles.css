@@ -61,8 +61,8 @@ ol {
 .about_description {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   color: #595959;
   width: 600px;
 
@@ -86,8 +86,8 @@ ol {
 .projects_list {
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 26px;
   padding: 0;
   margin-left: 15px;
   text-align: justify;
@@ -100,8 +100,8 @@ ol {
 .project_item {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   color: #000000;
 }
 
@@ -109,8 +109,8 @@ ol {
 .project_link {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   color: #b9b9c4;
 }
 
@@ -121,8 +121,8 @@ ol {
 .project_bracket {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   color: #000000;
 }
 
@@ -132,8 +132,8 @@ ol {
 .work_position {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 26px;
   color: #000000;
   margin-bottom: 10px;
 }
@@ -143,8 +143,8 @@ ol {
 .period {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 15px;
+  font-size: 16px;
+  line-height: 18px;
   color: #827a7a;
   margin-bottom: 10px;
 }
@@ -152,8 +152,8 @@ ol {
 .line {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 26px;
   color: #000000;
 }
 
@@ -165,24 +165,24 @@ ol {
 .work_list_item {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   color: #b9b9c4;
 }
 
 .rob {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 26px;
   color: #000000;
   margin-bottom: 10px;
 }
 
 .oranization {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 26px;
   color: #fb6d3a;
 }
 
@@ -193,8 +193,8 @@ ol {
 .education_position {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 26px;
   color: #434455;
   margin-bottom: 10px;
   text-align: justify;
@@ -203,8 +203,8 @@ ol {
 .education_pos {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 26px;
   color: #000000;
   margin-bottom: 10px;
 }
@@ -247,15 +247,15 @@ ol {
 .contact_type {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   margin-right: 10px;
 }
 
 .contact_link {
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: yellow;
 }
@@ -275,8 +275,8 @@ ol {
 .tech_skills_text {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .soft_skills_list {
@@ -291,7 +291,7 @@ ol {
 .soft_skills_text {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
 }
 
