@@ -45,9 +45,7 @@ ol {
 }
 
 /* about styles */
-.about {
-  margin-bottom: 10px;
-}
+
 
 .about_name {
   font-style: normal;
@@ -76,11 +74,10 @@ ol {
 
 .title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
   color: #000000;
-  margin-bottom: 10px;
 }
 
 .projects_list {
@@ -186,9 +183,7 @@ ol {
   color: #fb6d3a;
 }
 
-.education {
-  margin-top: 5px;
-}
+
 
 .education_position {
   font-style: normal;
@@ -196,17 +191,19 @@ ol {
   font-size: 20px;
   line-height: 26px;
   color: #434455;
-  margin-bottom: 10px;
+
   text-align: justify;
 }
-
+.education_position:not(:last-child) {
+  margin-bottom: 10px;
+}
 .education_pos {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
-  margin-bottom: 10px;
+  
 }
 
 /* sidebard class */
@@ -295,3 +292,6 @@ ol {
   line-height: 26px;
 }
 
+h5{
+  margin: 0;
+}
