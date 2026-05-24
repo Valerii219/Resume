@@ -68,9 +68,7 @@ ol {
 }
 
 /* projects styles */
-.projects {
-  margin-bottom: 18px;
-}
+
 
 .title {
   font-style: normal;
@@ -292,6 +290,6 @@ ol {
   line-height: 26px;
 }
 
-h5{
+h5, h4{
   margin: 0;
 }
