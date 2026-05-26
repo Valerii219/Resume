@@ -3,8 +3,9 @@ body {
   margin: 0;
   background-color: #eef2f7;
   color: #1f2937;
-  font-size: 18px;
-  line-height: 1.6;
+
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 /* reset */
@@ -17,7 +18,7 @@ ul, ol {
 /* layout */
 .main {
   display: flex;
-  width: 1300px;
+  width: 1400px;
   margin: 20px auto;
   background: #ffffff;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
@@ -28,87 +29,94 @@ ul, ol {
 /* main content */
 .main_content {
   flex: 1;
-  padding: 50px 70px;
+  padding: 60px 80px;
 }
 
 /* sidebar */
 .sidebard {
-  width: 360px;
+  width: 380px;
   background: #1f2937;
   color: #ffffff;
-  padding: 40px 30px;
+  padding: 50px 35px;
 }
 
-/* headings */
+/* name */
 .about_name {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 700;
   color: #111827;
   margin: 0;
 }
 
+/* description */
 .about_description {
-  font-size: 18px;
+  font-size: 20px;
   color: #4b5563;
-  margin-top: 10px;
+  margin-top: 12px;
   text-align: left;
+  line-height: 1.7;
 }
 
 /* section titles */
 .title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
-  margin: 25px 0 10px;
+  margin: 30px 0 15px;
   color: #111827;
 }
 
-/* projects */
+/* project link */
 .nameA {
   color: #2563eb;
   font-weight: 600;
+  font-size: 20px;
 }
 
-/* text blocks */
+/* job titles */
 .education_position,
 .work_position {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   color: #111827;
 }
 
+/* work text */
 .work {
-  margin-left: 20px;
-  font-size: 16px;
+  margin-left: 22px;
+  font-size: 18px;
   color: #374151;
 }
 
+/* dates */
 .period {
-  font-size: 14px;
+  font-size: 16px;
   color: #6b7280;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 /* sidebar titles */
 .sidebard_title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 /* sidebar lists */
 .tech_skills_list,
 .soft_skills_list {
-  padding-left: 15px;
+  padding-left: 18px;
 }
 
+/* sidebar items */
 .tech_skills_item,
 .soft_skills_item {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
+/* sidebar text */
 .tech_skills_text,
 .soft_skills_text {
-  font-size: 16px;
+  font-size: 18px;
   color: #e5e7eb;
 }
 
@@ -116,14 +124,14 @@ ul, ol {
 .contact_link {
   color: #93c5fd;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .contact_link:hover {
   text-decoration: underline;
 }
 
-/* remove unnecessary spacing chaos */
+/* headings reset */
 h4, h5 {
   margin: 0;
 }
