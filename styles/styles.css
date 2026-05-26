@@ -50,9 +50,9 @@ ul, ol {
 
 /* description */
 .about_description {
-  font-size: 20px;
+  font-size: 21px;
   color: #4b5563;
-  margin-top: 12px;
+  margin-top: 5px;
   line-height: 1.7;
 }
 
@@ -62,6 +62,8 @@ ul, ol {
   font-weight: 700;
   margin: 30px 0 15px;
   color: #111827;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* project links */
@@ -88,14 +90,15 @@ ul, ol {
 
 /* dates */
 .period {
-  font-size: 16px;
+  font-size: 20px;
   color: #6b7280;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 /* sidebar titles */
 .sidebard_title {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
   margin-bottom: 12px;
 }
@@ -103,7 +106,7 @@ ul, ol {
 /* sidebar text */
 .tech_skills_text,
 .soft_skills_text {
-  font-size: 18px;
+  font-size: 21px;
   color: #e5e7eb;
 }
 
@@ -111,10 +114,13 @@ ul, ol {
 .contact_link {
   color: #93c5fd;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 /* clean headings */
-h4, h5 {
+h1,h4, h5 {
   margin: 0;
+}
+.work{
+  font-size: 20px;
 }
