@@ -59,7 +59,7 @@ ul, ol {
 /* section titles */
 .title {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 30px 0 15px;
   color: #111827;
   margin-top: 5px;
@@ -69,7 +69,7 @@ ul, ol {
 /* project links */
 .nameA {
   color: #2563eb;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 21px;
 }
 
@@ -77,29 +77,32 @@ ul, ol {
 .education_position,
 .work_position {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 500;
   color: #111827;
 }
 
 /* bullet text */
 .work {
   margin-left: 22px;
-  font-size: 18px;
-  color: #374151;
+  font-size: 21px;
+  font-weight: 500;
+  color: #111827;
 }
 
 /* dates */
 .period {
-  font-size: 20px;
   color: #6b7280;
   margin-bottom: 5px;
   margin-top: 5px;
+  font-size: 21px;
+  font-weight: 400;
+
 }
 
 /* sidebar titles */
 .sidebard_title {
-  font-size: 21px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 12px;
 }
 
@@ -107,6 +110,7 @@ ul, ol {
 .tech_skills_text,
 .soft_skills_text {
   font-size: 21px;
+  font-weight: 500;
   color: #e5e7eb;
 }
 
@@ -114,13 +118,11 @@ ul, ol {
 .contact_link {
   color: #93c5fd;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 21px;
+  font-weight: 400;
 }
 
 /* clean headings */
 h1,h4, h5 {
   margin: 0;
-}
-.work{
-  font-size: 20px;
 }
