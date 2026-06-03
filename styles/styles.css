@@ -1,128 +1,165 @@
-body {
-  font-family: "Merriweather", serif;
-  margin: 0;
-  background-color: #eef2f7;
-  color: #1f2937;
-
-  font-size: 21px;
-  line-height: 1.75;
-}
-
-/* reset */
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* layout */
-.main {
-  display: flex;
-  width: 1450px; /* трохи ширше, але не over */
-  margin: 20px auto;
-  background: #ffffff;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-/* content */
-.main_content {
-  flex: 1;
-  padding: 70px 85px;
-}
-
-/* sidebar */
-.sidebard {
-  width: 400px;
-  background: #1f2937;
-  color: #ffffff;
-  padding: 50px 35px;
-}
-
-/* name */
-.about_name {
-  font-size: 52px;
-  font-weight: 700;
-  margin: 0;
-  color: #111827;
-}
-
-/* description */
-.about_description {
-  font-size: 21px;
-  color: #4b5563;
-  margin-top: 5px;
-  line-height: 1.7;
-}
-
-/* section titles */
-.title {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 30px 0 15px;
-  color: #111827;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-/* project links */
-.nameA {
-  color: #2563eb;
-  font-weight: 500;
-  font-size: 21px;
-}
-
-/* job + education */
-.education_position,
-.work_position {
-  font-size: 21px;
-  font-weight: 500;
-  color: #111827;
-}
-
-/* bullet text */
-.work {
-  margin-left: 22px;
-  font-size: 21px;
-  font-weight: 500;
-  color: #111827;
-}
-
-/* dates */
-.period {
-  color: #6b7280;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  font-size: 21px;
-  font-weight: 400;
-
-}
-
-/* sidebar titles */
-.sidebard_title {
-  font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 12px;
-}
-
-/* sidebar text */
-.tech_skills_text,
-.soft_skills_text {
-  font-size: 21px;
-  font-weight: 500;
-  color: #e5e7eb;
-}
-
-/* links */
-.contact_link {
-  color: #93c5fd;
-  text-decoration: none;
-  font-size: 21px;
-  font-weight: 400;
-}
-
-/* clean headings */
-h1,h4, h5 {
-  margin: 0;
-}
+/* =========================
+   RESET
+   ========================= */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #1f1f1f;
+    background: #fff;
+  }
+  
+  /* =========================
+     LAYOUT (WIDE + BALANCED)
+     ========================= */
+  .main {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* LEFT CONTENT */
+  .main_content {
+    flex: 3;
+    padding: 28px 32px;
+  }
+  
+  /* RIGHT SIDEBAR */
+  .sidebard {
+    flex: 1.2;
+    padding: 26px 22px;
+    border-left: 1px solid #eaeaea;
+    background: #fafafa;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* =========================
+     HEADER
+     ========================= */
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .section-title {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 16px 0 10px;
+  }
+  
+  /* =========================
+     ABOUT
+     ========================= */
+  .about p {
+    font-size: 17px;
+    line-height: 1.65;
+    margin-top: 6px;
+  }
+  
+  /* =========================
+     PROJECTS
+     ========================= */
+  section article {
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  section article h3 {
+    font-size: 18px;
+    margin: 6px 0;
+  }
+  
+  section article p {
+    font-size: 16px;
+    margin: 4px 0;
+  }
+  
+  section article ul {
+    margin: 6px 0 10px 20px;
+  }
+  
+  section article li {
+    font-size: 16px;
+    margin: 3px 0;
+  }
+  
+  /* =========================
+     WORK EXPERIENCE
+     ========================= */
+  .education_position,
+  .work {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .posada {
+    font-size: 17px;
+    margin-top: 4px;
+  }
+  
+  .period {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-bottom: 8px;
+  }
+  
+  /* =========================
+     SIDEBAR
+     ========================= */
+  .sidebard .contacts,
+  .sidebard .tech_skills,
+  .sidebard .soft_skills {
+    margin-bottom: 16px;
+  }
+  
+  .sidebard .contacts p {
+    font-size: 16px;
+    margin: 6px 0;
+  }
+  
+  /* LINKS */
+  a {
+    color: #1f1f1f;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* =========================
+     LISTS
+     ========================= */
+  .sidebard ul {
+    margin-left: 20px;
+  }
+  
+  .sidebard li {
+    font-size: 16px;
+    margin: 4px 0;
+  }
+  
+  /* =========================
+     RESPONSIVE
+     ========================= */
+  @media (max-width: 900px) {
+    .main {
+      flex-direction: column;
+    }
+  
+    .sidebard {
+      border-left: none;
+      border-top: 1px solid #eaeaea;
+    }
+  }
