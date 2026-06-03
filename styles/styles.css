@@ -9,8 +9,8 @@
   
   body {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px; /* ⬆️ ще більше */
-    line-height: 1.65;
+    font-size: 19px; /* ⬆️ +1 */
+    line-height: 1.7;
     color: #1f1f1f;
     background: #fff;
   }
@@ -40,28 +40,38 @@
   }
   
   /* =========================
-     HEADER (NAME + TITLE GAP FIX)
+     HEADER
      ========================= */
   .title {
-    font-size: 38px; /* ⬆️ bigger */
-    font-weight: 700;
-    margin-bottom: 2px; /* ⬇️ VERY TIGHT */
+    font-size: 30px; /* ⬆️ +1 */
+    font-weight: 600;
+    margin-bottom: 2px;
     line-height: 1.1;
   }
   
-  /* якщо у тебе є підзаголовок (Junior Data Analyst) */
   .section-title {
-    font-size: 22px;
+    font-size: 23px; /* ⬆️ +1 */
     font-weight: 700;
-    margin: 4px 0 10px; /* ⬇️ reduced gap */
+    margin: 10px 0 6px; /* ⬇️ tighter */
+  }
+  
+  /* =========================
+     SECTION SPACING CONTROL
+     (Projects / Work / Education)
+     ========================= */
+  section,
+  .education,
+  .work-experience {
+    margin-top: 10px;  /* ⬇️ reduced */
+    margin-bottom: 10px; /* ⬇️ reduced */
   }
   
   /* =========================
      ABOUT
      ========================= */
   .about p {
-    font-size: 18px;
-    line-height: 1.7;
+    font-size: 19px;
+    line-height: 1.75;
     margin-top: 6px;
   }
   
@@ -69,19 +79,19 @@
      PROJECTS
      ========================= */
   section article {
-    margin-bottom: 10px; /* ⬇️ tighter */
+    margin-bottom: 10px;
     padding-bottom: 8px;
     border-bottom: 1px solid #eee;
   }
   
   section article h3 {
-    font-size: 19px;
+    font-size: 20px; /* ⬆️ +1 */
     margin: 4px 0;
   }
   
   section article p {
-    font-size: 17px;
-    margin: 2px 0; /* ⬇️ reduced spacing */
+    font-size: 18px; /* ⬆️ +1 */
+    margin: 2px 0;
   }
   
   section article ul {
@@ -89,7 +99,7 @@
   }
   
   section article li {
-    font-size: 17px;
+    font-size: 18px; /* ⬆️ +1 */
     margin: 2px 0;
   }
   
@@ -98,17 +108,17 @@
      ========================= */
   .education_position,
   .work {
-    font-size: 17px;
-    line-height: 1.55;
+    font-size: 18px; /* ⬆️ +1 */
+    line-height: 1.6;
   }
   
   .posada {
-    font-size: 18px;
+    font-size: 19px; /* ⬆️ +1 */
     margin-top: 2px;
   }
   
   .period {
-    font-size: 14.5px;
+    font-size: 15px; /* ⬆️ +1 */
     opacity: 0.85;
     margin-bottom: 6px;
   }
@@ -119,11 +129,11 @@
   .sidebard .contacts,
   .sidebard .tech_skills,
   .sidebard .soft_skills {
-    margin-bottom: 12px; /* ⬇️ tighter */
+    margin-bottom: 10px; /* ⬇️ tighter */
   }
   
   .sidebard .contacts p {
-    font-size: 17px;
+    font-size: 18px; /* ⬆️ +1 */
     margin: 4px 0;
   }
   
@@ -145,7 +155,7 @@
   }
   
   .sidebard li {
-    font-size: 17px;
+    font-size: 18px; /* ⬆️ +1 */
     margin: 3px 0;
   }
   
