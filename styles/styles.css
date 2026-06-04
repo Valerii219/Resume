@@ -50,9 +50,9 @@
   }
   
   .section-title {
-    font-size: 23px; /* ⬆️ +1 */
+    font-size: 22px; /* ⬆️ +1 */
     font-weight: 700;
-    margin: 10px 0 6px; /* ⬇️ tighter */
+    margin: 5px 0 5px; /* ⬇️ tighter */
   }
   
   /* =========================
@@ -62,8 +62,8 @@
   section,
   .education,
   .work-experience {
-    margin-top: 10px;  /* ⬇️ reduced */
-    margin-bottom: 10px; /* ⬇️ reduced */
+    margin-top: 2px;  /* ⬇️ reduced */
+    margin-bottom: 2px; /* ⬇️ reduced */
   }
   
   /* =========================
@@ -79,8 +79,8 @@
      PROJECTS
      ========================= */
   section article {
-    margin-bottom: 10px;
-    padding-bottom: 8px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
     border-bottom: 1px solid #eee;
   }
   
