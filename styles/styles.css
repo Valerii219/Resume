@@ -20,18 +20,18 @@
      ========================= */
   .main {
     display: flex;
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 0 auto;
   }
   
   .main_content {
     flex: 3;
-    padding: 26px 30px;
+    padding: 20px 15px;
   }
   
   .sidebard {
     flex: 1.2;
-    padding: 24px 20px;
+    padding: 15px 15px;
     border-left: 1px solid #eaeaea;
     background: #fafafa;
   
@@ -171,4 +171,11 @@
       border-left: none;
       border-top: 1px solid #eaeaea;
     }
+  }
+
+  .flexib{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
   }
