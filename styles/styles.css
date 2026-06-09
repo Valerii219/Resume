@@ -179,3 +179,27 @@
     flex-direction: row;
     margin-top: 10px;
   }
+
+  .main {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .main_content {
+    flex: 3.6;
+    padding: 10px;
+  }
+  
+  .sidebard {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  @page {
+    size: A4;
+    margin: 20px;
+  }
