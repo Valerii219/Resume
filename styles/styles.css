@@ -1,203 +1,184 @@
+
 /* =========================
-   RESET
-   ========================= */
-   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+   BASE (SCREEN + PRINT)
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+/* =========================
+   PAGE SETUP (A4)
+========================= */
+
+@page {
+  size: A4;
+  margin: 15mm;
+}
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+
+.main {
+  display: flex;
+  max-width: 100%;
+  gap: 18px;
+}
+
+/* left content */
+.main_content {
+  flex: 3;
+  padding: 10px 12px;
+}
+
+/* sidebar */
+.sidebard {
+  flex: 1;
+  padding: 10px 12px;
+  border-left: 1px solid #e5e5e5;
+  background: #fafafa;
+}
+
+/* =========================
+   TYPOGRAPHY SCALE
+========================= */
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0 6px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+p {
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+/* =========================
+   LISTS FIX (IMPORTANT)
+========================= */
+
+ul {
+  padding-left: 16px;
+  margin-top: 4px;
+  list-style-type: disc;
+}
+
+li {
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+/* =========================
+   SECTIONS SPACING
+========================= */
+
+section,
+.work-experience,
+.education {
+  margin-bottom: 8px;
+}
+
+/* =========================
+   BLOCKS (PREVENT SPLIT)
+========================= */
+
+section,
+article,
+.work,
+.education {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebard p,
+.sidebard li {
+  font-size: 12.5px;
+}
+
+.sidebard .contacts,
+.sidebard .tech_skills,
+.sidebard .soft_skills {
+  margin-bottom: 10px;
+}
+
+/* =========================
+   LINKS (PRINT SAFE)
+========================= */
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* =========================
+   FLEX HELPERS
+========================= */
+
+.flexib {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* =========================
+   PRINT OPTIMIZATION
+========================= */
+
+@media print {
+
   body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 19px; /* ⬆️ +1 */
-    line-height: 1.7;
-    color: #1f1f1f;
-    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
-  
-  /* =========================
-     LAYOUT
-     ========================= */
+
   .main {
-    display: flex;
-    max-width: 1050px;
-    margin: 0 auto;
+    max-width: 100%;
   }
-  
-  .main_content {
-    flex: 3;
-    padding: 20px 15px;
-  }
-  
+
+  /* прибирає зайві кольори/фони для друку */
   .sidebard {
-    flex: 1.2;
-    padding: 15px 15px;
-    border-left: 1px solid #eaeaea;
-    background: #fafafa;
-  
-    display: flex;
-    flex-direction: column;
+    background: #fff !important;
   }
-  
-  /* =========================
-     HEADER
-     ========================= */
-  .title {
-    font-size: 30px; /* ⬆️ +1 */
-    font-weight: 600;
-    margin-bottom: 2px;
-    line-height: 1.1;
-  }
-  
-  .section-title {
-    font-size: 22px; /* ⬆️ +1 */
-    font-weight: 700;
-    margin: 5px 0 5px; /* ⬇️ tighter */
-  }
-  
-  /* =========================
-     SECTION SPACING CONTROL
-     (Projects / Work / Education)
-     ========================= */
+
+  /* уникнути розривів сторінок всередині блоків */
   section,
-  .education,
-  .work-experience {
-    margin-top: 2px;  /* ⬇️ reduced */
-    margin-bottom: 2px; /* ⬇️ reduced */
-  }
-  
-  /* =========================
-     ABOUT
-     ========================= */
-  .about p {
-    font-size: 19px;
-    line-height: 1.75;
-    margin-top: 6px;
-  }
-  
-  /* =========================
-     PROJECTS
-     ========================= */
-  section article {
-    margin-bottom: 6px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eee;
-  }
-  
-  section article h3 {
-    font-size: 20px; /* ⬆️ +1 */
-    margin: 4px 0;
-  }
-  
-  section article p {
-    font-size: 18px; /* ⬆️ +1 */
-    margin: 2px 0;
-  }
-  
-  section article ul {
-    margin: 4px 0 8px 18px;
-  }
-  
-  section article li {
-    font-size: 18px; /* ⬆️ +1 */
-    margin: 2px 0;
-  }
-  
-  /* =========================
-     WORK EXPERIENCE
-     ========================= */
-  .education_position,
-  .work {
-    font-size: 18px; /* ⬆️ +1 */
-    line-height: 1.6;
-  }
-  
-  .posada {
-    font-size: 19px; /* ⬆️ +1 */
-    margin-top: 2px;
-  }
-  
-  .period {
-    font-size: 15px; /* ⬆️ +1 */
-    opacity: 0.85;
-    margin-bottom: 6px;
-  }
-  
-  /* =========================
-     SIDEBAR
-     ========================= */
-  .sidebard .contacts,
-  .sidebard .tech_skills,
-  .sidebard .soft_skills {
-    margin-bottom: 10px; /* ⬇️ tighter */
-  }
-  
-  .sidebard .contacts p {
-    font-size: 18px; /* ⬆️ +1 */
-    margin: 4px 0;
-  }
-  
-  /* LINKS */
-  a {
-    color: #1f1f1f;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* =========================
-     LISTS
-     ========================= */
-  .sidebard ul {
-    margin-left: 18px;
-  }
-  
-  .sidebard li {
-    font-size: 18px; /* ⬆️ +1 */
-    margin: 3px 0;
-  }
-  
-  /* =========================
-     RESPONSIVE
-     ========================= */
-  @media (max-width: 900px) {
-    .main {
-      flex-direction: column;
-    }
-  
-    .sidebard {
-      border-left: none;
-      border-top: 1px solid #eaeaea;
-    }
+  article,
+  .work,
+  .education {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
-  .flexib{
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
+  /* прибрати зайві тіні/ефекти якщо були */
+  * {
+    box-shadow: none !important;
   }
-
-  .main {
-    width: 100%;
-    max-width: none;
-  }
-  
-  .main_content {
-    flex: 3.6;
-    padding: 10px;
-  }
-  
-  .sidebard {
-    flex: 1;
-    padding: 10px;
-  }
-  
-
-  
-  @page {
-    size: A4;
-    margin: 20px;
-  }
+}
